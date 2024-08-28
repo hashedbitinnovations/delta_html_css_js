@@ -1,0 +1,77 @@
+html, css, bootstrap
+js
+react
+node express
+mysql, mongo
+
+dsa
+
+soft skill
+
+mock and preparations
+
+php stack/java stack/python stack
+
+////////////////////////////
+
+learning portal - classes, assignments, mocks
+
+///////////////////////////////
+
+
+Monday to Friday - session - 7:30 pm
+
+Monday to Friday - mentor session - 9pm
+
+//////////////////////////////////
+
+learning
+
+
+
+///////////////////////////////////////
+
+class - 
+same code try on your system
+mentor session
+
+
+assignments, quiz, mocks, coding contests
+
+
+/////////////////////////////////////
+
+camera OOOONNNNNN, audio ON
+
+
+
+/////////////////////////////
+
+
+
+VS Code / sublime/atom/....
+node 20
+git
+
+postman
+mysql workbench
+photoshop / photopea.com
+
+jsfiddle/codepen - account
+codesnadbox - account
+github - account
+
+
+
+
+linux commands
+keyboard shortcuts
+
+
+///////////////////////////
+
+
+MARKUPP - WORD, ...............
+HTML
+
+CSS - Cascading Style Sheet
