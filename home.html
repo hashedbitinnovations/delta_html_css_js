@@ -3,34 +3,57 @@
 
 <head>
 
-   <title></title>
-   <!-- favicon
+    <title></title>
+    <!-- favicon
 
    meta tags - seo -->
 
-   <meta charset="utf-8">
-   
+    <meta charset="utf-8">
+
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="XYZ">
     <!-- meta - google site verification -->
 
-    <meta http-equiv="refresh" content="10">
+    <!-- <meta http-equiv="refresh" content="10"> -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        p {
+            color: brown;
+        }
+    </style>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <script type="text/javascript">
+        console.log('test js')
+    </script>
+
+    <script type="text/javascript" src="./test.js"></script>
+
+    <!-- google site analytics -->
+
+
+
 
 
 </head>
 
 <body>
 
+
+    <svg id="svgelem" height="200" xmlns="http://www.abc.org/2000/svg">
+        <circle id="redcircle" cx="50" cy="50" r="50" fill="red" />
+    </svg>
     <!-- action
     form attributes
     form element attributes -->
 
     <form action="" method="get/post" autocomplete="off" enctype="multipart/form-data">
 
-        <label>Name: -</label><input type="text" name="firstname" id="firstname" value="" required/>
+        <label>Name: -</label><input type="text" name="firstname" id="firstname" value="" required />
         <br>
         <label>Country: -</label><input type="text" name="age" value="INDIA" disabled />
         <br>
@@ -38,11 +61,11 @@
         <br>
         <label>Password: -</label><input type="password" name="city" />
         <br>
-        <label>State: -</label><input type="text" name="state" placeholder="Enter your state"/>
+        <label>State: -</label><input type="text" name="state" placeholder="Enter your state" />
         <br>
-        <label>Pincode: -</label><input type="number" name="pin" maxlength="6"/>
+        <label>Pincode: -</label><input type="number" name="pin" maxlength="6" />
         <br>
-        <label>Year of Birth: -</label><input type="number" name="pin" min="1900" max="2024"/>
+        <label>Year of Birth: -</label><input type="number" name="pin" min="1900" max="2024" />
         <br>
 
 
@@ -54,25 +77,25 @@
         <br>
 
         <label>Gender: -</label>
-        <input type="radio" name="pin" value="male"/>Male
+        <input type="radio" name="pin" value="male" />Male
         <input type="radio" name="pin" value="female" />Female
         <br>
 
         <label>Courses: -</label>
-        <input type="checkbox" name="pin" value="php"/>PHP
-        <input type="checkbox" name="pin" value="java"/>Java
-        <input type="checkbox" name="pin" value="python"/>python
-        <input type="checkbox" name="pin" value="ios"/>Ios
+        <input type="checkbox" name="pin" value="php" />PHP
+        <input type="checkbox" name="pin" value="java" />Java
+        <input type="checkbox" name="pin" value="python" />python
+        <input type="checkbox" name="pin" value="ios" />Ios
         <br>
 
-        Budget : <input type="range" min="1" max="100"/>
+        Budget : <input type="range" min="1" max="100" />
 
-        Date: <input type="date"/><br>
-        Time: <input type="time"/><br>
-        Tel: <input type="tel"/><br>
-        Color: <input type="color"/><br>
-        Hidden: <input type="hidden"/><br>
-        Month: <input type="month"/><br>
+        Date: <input type="date" /><br>
+        Time: <input type="time" /><br>
+        Tel: <input type="tel" /><br>
+        Color: <input type="color" /><br>
+        Hidden: <input type="hidden" /><br>
+        Month: <input type="month" /><br>
 
 
 
@@ -106,7 +129,8 @@
     <h6 class="heading">Heading 1</h6>
 
     <img src="./images/nature.jpg" />
-    <img src="https://plus.unsplash.com/premium_photo-1673306778968-5aab577a7365?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmFja2dyb3VuZCUyMGltYWdlfGVufDB8fDB8fHww" />
+    <img
+        src="https://plus.unsplash.com/premium_photo-1673306778968-5aab577a7365?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmFja2dyb3VuZCUyMGltYWdlfGVufDB8fDB8fHww" />
 
     <!-- absolute url and relative url -->
 
@@ -185,6 +209,18 @@
         </tbody>
     </table>
 
+
+    <iframe src="https://hashedbit.com/learning" width="400" height="300"></iframe>
+
+
+    <video width="300" height="200" controls autoplay>
+        <source src="./pulak.mp4" type="video/mp4" />
+    </video>
+
+    <audio controls autoplay>
+        <source src="" type="" />
+    </audio>
+
 </body>
 
 </html>
@@ -199,3 +235,21 @@ urls
 head
 html 5 concepts
 advanced concepts -->
+
+
+
+<!-- html 
+css - same page, external page
+js - same page, external page -->
+
+<!-- 
+html 5
+audio video
+vector graphics - svg and canvas 
+semantic tags - header, footer, section, nav, article, main, summary, time, details, figure
+form new input types
+storage - localStorage, sessioStorage vs cookie and session
+web workers / web sockets
+gelocation api
+drag and drop api
+-->
