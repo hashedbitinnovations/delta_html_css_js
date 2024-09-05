@@ -24,7 +24,7 @@
     /* 000000 - black
     ffffff - white */
     width: 100%;
-    height: 400px;
+    
 }
 
 
@@ -32,6 +32,46 @@
     background-color: rgba(200, 150, 55, 0.5);
     width: 100%;
     height: 100px;
+    clear: both;
+    background: linear-gradient(90deg, blue, red);
+}
+
+.left {
+    width: 30%;
+    background-color: aqua;
+    float: left;
+    min-height: 400px;
+    height: auto;
+    max-height: 600px;
+}
+
+.right {
+    width: 70%;
+    background-color: transparent;
+    float: right;
+    min-height: 400px;
+    height: auto;
+    max-height: 600px;
+    background-color: chartreuse;
+}
+
+
+.wa-icon {
+    width: 80px;
+    height: auto;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    /* top/bottom - left/right */
+}
+
+.wa-icon2 {
+    width: 80px;
+    height: auto;
+    position: fixed;
+    right: 0px;
+    bottom: 20px;
+    /* top/bottom - left/right */
 }
 
 
@@ -52,3 +92,47 @@ class selector */
 
 rgb - red, green, blue (00--FF, 00--FF, 00--FF) - 0-255X0-255X0-255 = 256x256x256
 cmyk */
+
+/* how to hide an element */
+/* display - none
+opacity - 0
+visibility - hidden */
+
+.button4 {
+    /* opacity: 0; */
+    /* visibility: hidden; */
+    display: none;
+}
+
+
+
+/* horizontally and vertically center */
+.center-content {
+    background-color: coral;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: calc(50vh - 50px);
+    left: calc(50% - 50px);
+}
+
+.nav button {
+    padding: 20px 20px 20px 20px;
+    /* top right bottom left */
+    background-color: #ff9922;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding-right: 100px;
+}
+
+
+ ul li {
+    font-size: 20px;
+ }
+
+
+
+
+ /* specificity rule
+ media queries
+ flex */
